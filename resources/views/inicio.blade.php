@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Asbab - eCommerce HTML5 Templatee</title>
+    <title>Test APP - eCommerce </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -58,7 +58,7 @@
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
                                         <li class="drop"><a href="index.html">Home</a></li>
-                                        <li class="drop"><a href="#">women</a>
+                                        <li class="drop"><a href="#">Technology</a>
                                             <ul class="dropdown mega_dropdown">
                                                 <!-- Start Single Mega MEnu -->
                                                 <li><a class="mega__title" href="product-grid.html">Shop Pages</a>
@@ -94,7 +94,7 @@
                                                 <!-- End Single Mega MEnu -->
                                             </ul>
                                         </li>
-                                        <li class="drop"><a href="#">men</a>
+                                        <li class="drop"><a href="#">Laundry</a>
                                             <ul class="dropdown mega_dropdown">
                                                 <!-- Start Single Mega MEnu -->
                                                 <li><a class="mega__title" href="product-grid.html">Shop Pages</a>
@@ -250,7 +250,7 @@
                         <div class="shp__single__product">
                             <div class="shp__pro__thumb">
                                 <a href="#">
-                                    <img src="images/product-2/sm-smg/2.jpg" alt="product images">
+                                    <img src="{{ asset('css/images/product-2/sm-smg/2.jpg') }}" alt="product images">
                                 </a>
                             </div>
                             <div class="shp__pro__details">
@@ -296,7 +296,7 @@
                             </div>
                             <div class="col-lg-6 col-sm-5 col-xs-12 col-md-5">
                                 <div class="slide__thumb">
-                                    <img src="images/slider/fornt-img/1.png" alt="slider images">
+                                    <img src=" {{ asset('css/images/slider/fornt-img/1.png') }}" alt="slider images">
                                 </div>
                             </div>
                         </div>
@@ -331,109 +331,10 @@
         </div>
         <!-- Start Slider Area -->
         <!-- Start Category Area -->
-        <section class="htc__category__area ptb--100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="section__title--2 text-center">
-                            <h2 class="title__line">New Arrivals</h2>
-                            <p>But I must explain to you how all this mistaken idea</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="htc__product__container">
-                    <div class="row">
-                        <div class="product__list clearfix mt--30">
-                            <!-- Start Single Category -->
-                            <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
-                                <div class="category">
-                                    <div class="ht__cat__thumb">
-                                        <a href="product-details.html">
-                                            <img src="images/product/1.jpg" alt="product images">
-                                        </a>
-                                    </div>
-                                    <div class="fr__hover__info">
-                                        <ul class="product__action">
-                                            <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                            <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                            <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="fr__product__inner">
-                                        <h4><a href="product-details.html">Largest Water Pot</a></h4>
-                                        <ul class="fr__pro__prize">
-                                            <li class="old__prize">$30.3</li>
-                                            <li>$25.9</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Category -->
-
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      
         <!-- End Category Area -->
         <!-- Start Prize Good Area -->
-        <section class="htc__good__sale bg__cat--3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                        <div class="fr__prize__inner">
-                            <h2>Contrary to popular belief is simply rand.</h2>
-                            <h3>Professor at Hamp deny dney College.</h3>
-                            <a class="fr__btn" href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                        <div class="prize__inner">
-                            <div class="prize__thumb">
-                                <img src="images/banner/big-img/1.png" alt="banner images">
-                            </div>
-                            <div class="banner__info">
-                                <div class="pointer__tooltip pointer--3 align-left">
-                                    <div class="tooltip__box">
-                                        <h4>Tooltip Left</h4>
-                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
-                                    </div>
-                                </div>
-                                <div class="pointer__tooltip pointer--4 align-top">
-                                    <div class="tooltip__box">
-                                        <h4>Tooltip Top</h4>
-                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
-                                    </div>
-                                </div>
-                                <div class="pointer__tooltip pointer--5 align-bottom">
-                                    <div class="tooltip__box">
-                                        <h4>Tooltip Bottom</h4>
-                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
-                                    </div>
-                                </div>
-                                <div class="pointer__tooltip pointer--6 align-top">
-                                    <div class="tooltip__box">
-                                        <h4>Tooltip Bottom</h4>
-                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
-                                    </div>
-                                </div>
-                                <div class="pointer__tooltip pointer--7 align-top">
-                                    <div class="tooltip__box">
-                                        <h4>Tooltip Bottom</h4>
-                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
         <!-- End Prize Good Area -->
         <!-- Start Product Area -->
         <section class="ftr__product__area ptb--100">
@@ -449,38 +350,17 @@
                 <div class="row">
                     <div class="product__wrap clearfix">
                         <!-- Start Single Category -->
-                        <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
-                            <div class="category">
-                                <div class="ht__cat__thumb">
-                                    <a href="product-details.html">
-                                        <img src="images/product/9.jpg" alt="product images">
-                                    </a>
-                                </div>
-                                <div class="fr__hover__info">
-                                    <ul class="product__action">
-                                        <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                        <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                        <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="fr__product__inner">
-                                    <h4><a href="product-details.html">Special Wood Basket</a></h4>
-                                    <ul class="fr__pro__prize">
-                                        <li class="old__prize">$30.3</li>
-                                        <li>$25.9</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Category -->
+                      
                         <!-- Start Single Category -->
+
+                        @foreach ($products as $product)
+
+
                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                             <div class="category">
                                 <div class="ht__cat__thumb">
-                                    <a href="product-details.html">
-                                        <img src="images/product/10.jpg" alt="product images">
+                                    <a href="{{$product->linkProduct}}">
+                                    <img src="{{$product->image}}" alt="product images">
                                     </a>
                                 </div>
                                 <div class="fr__hover__info">
@@ -493,15 +373,16 @@
                                     </ul>
                                 </div>
                                 <div class="fr__product__inner">
-                                    <h4><a href="product-details.html">voluptatem accusantium</a></h4>
+                                    <h4><a href="{{$product->linkProduct}}">{{$product->title}}</a></h4>
                                     <ul class="fr__pro__prize">
-                                        <li class="old__prize">$30.3</li>
-                                        <li>$25.9</li>
+                                        <li class="old__prize"></li>
+                                        <li>{{$product->price}}</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <!-- End Single Category -->
+                        @endforeach
                         <!-- Start Single Category -->
                         <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                             <div class="category">
